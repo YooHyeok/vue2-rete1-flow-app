@@ -1,4 +1,4 @@
-# vue-rate-flow-app
+# vue-rete-flow-app
 
 ## Project setup
 ```
