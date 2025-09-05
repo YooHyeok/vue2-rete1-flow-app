@@ -89,7 +89,7 @@ export default {
       await editor.addNode(n2);
 
       // 노드 연결 (v1 방식)
-      // editor.connect(n1.outputs.get("num"), n2.inputs.get("num"));
+        editor.connect(n1.outputs.get("numO1"), n2.inputs.get("numI1"));
 
       // 화면 갱신 - 화면 중심으로 줌/이동
       editor.view.resize();

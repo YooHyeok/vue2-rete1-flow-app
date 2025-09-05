@@ -37,7 +37,7 @@ export default class NodeComponent extends Rete.Component {
     // 컨트롤 추가
     if (options.controls) {
       options.controls.forEach(ctrl => {
-        const control = new ctrl.controlClass(ctrl.key, ctrl.initialValue);
+        const control = new ctrl.controlClass(ctrl.key, String(ctrl.initialValue));
         node.addControl(control);
       });
     }
