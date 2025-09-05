@@ -44,3 +44,27 @@ vue2 프로젝트 생성시 babel을 옵션으로 선택하여 의존성이 설�
     ]
   }
   ```
+
+
+## 구성
+- Nodes  
+  - 데이터와 포트의 집합으로 데이터 플로우 그래프에서 정점을 표현한다.  
+  ![alt text](image.png)
+  - rete 에서 Node는 블록 형태로 출력되며, 모든 Node에는 title, input, output 및 controls를 포함한다.  
+    - title은 Node를 식별하고 그 목적을 명확하게 나타내야 한다.  
+    - input은 왼쪽, output은 오른쪽에 위치해야한다.
+      - input, output은 socket으로 표현되며 이름을 가질 수 있다.  
+      - input이 1이라면 output은 N. input과 output간의 관계는 1:N 관계만 지원
+    - control의 경우 Node 자체에 직접 위치하거나 특정 Input에 연결될 수 있다.  
+      - Node에 위치할 경우 입력을 받을 수 있는 입력란
+      - Input포트에 위치할 경우
+- Sockets
+- Editor
+- Engine
+  실제 데이터 처리를 담당.  
+  노드의 스트림을 기반으로 데이터를 처리하고 출력 데이터에서 입력 데이터로 전송이 가능.  
+  화면상에 보이는 Node들은 단순히 editor에 의해 출력되는 반면 실제 값이 어떻게 흐르고 결과가 나오는지는 엔진이 담당함.  
+
+
+
+### editor
