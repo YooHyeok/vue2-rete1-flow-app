@@ -1,17 +1,17 @@
 <template>
   <div>
-    <InitComponent/>
+    <NumComponent/>
   </div>
 </template>
 
 <script>
 
-import InitComponent from "@/components/InitComponent"
+import NumComponent from "@/sample/components/NumComponent"
 
 export default {
   name: "App",
   components: {
-    InitComponent,
+    NumComponent,
   }
 };
 </script>

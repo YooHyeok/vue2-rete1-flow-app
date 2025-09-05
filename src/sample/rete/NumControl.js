@@ -1,6 +1,6 @@
 
 import Rete from "rete";
-import NumInput from '@/components/NumInput';
+import NumInput from '@/sample/components/NumInput';
 
 /**
  * emitter: 

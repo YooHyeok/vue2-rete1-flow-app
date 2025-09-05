@@ -9,7 +9,7 @@
 import Rete from "rete";
 import ConnectionPlugin from "rete-connection-plugin";
 import VueRenderPlugin from "rete-vue-render-plugin";
-import NumControl from "@/rete/NumControl"
+import NumControl from "@/sample/rete/NumControl"
 
 // 소켓 정의
 const numSocket = new Rete.Socket("Number value");
@@ -40,7 +40,7 @@ class NumComponent extends Rete.Component {
 }
 
 export default {
-  name: "ReteEditor",
+  name: "NumComponent",
   data() {
     return {
       editor: null,
