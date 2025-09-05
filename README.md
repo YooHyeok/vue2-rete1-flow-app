@@ -1,29 +1,25 @@
-# vue-rete-flow-app
+# vue
 
 ## Project setup
 ```
-npm install
+vue create vue-rete-flow-app
 ```
 
-### Compiles and hot-reloads for development
+## version up (2.6.14 → 2.7.14)
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+npm install vue@2.7.14
 ```
 
-### Run your tests
-```
-npm run test
-```
+# rete.js
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+vue 전용 플러그인을 함께 설치한다.
+- vue2 - rete.js v1 호환
+  ```bash
+  npm install rete@^1.4.4 rete-connection-plugin@^0.9.0 rete-vue-render-plugin@^0.5.0
+  ```
+  - rate@1.x 래퍼런스: https://rete.js.org/#/docs
+- vue3 - rete.js v2 호환
+  ```bash
+  npm install rete rete-area-plugin rete-connection-plugin rete-render-utils rete-vue-plugin  
+  ```
+  - rate@2.x 래퍼런스: https://retejs.org/docs
